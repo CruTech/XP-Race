@@ -2,6 +2,7 @@
 tag @s add admin
 gamemode creative @s
 effect clear @s
+clear @s bedrock
 
 # Basic World Setup
 gamerule spawnRadius 1
