@@ -1,5 +1,5 @@
 {
-	"parent": "xpr:main/root",
+	"parent": "xpr:base/root",
 	"criteria":
 	{
 		"bedrock":
@@ -16,6 +16,6 @@
 	},
 	"rewards":
 	{
-		"function": "xpr:main/setup"
+		"function": "xpr:base/setup"
 	}
 }
