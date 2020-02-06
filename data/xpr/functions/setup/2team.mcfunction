@@ -15,3 +15,6 @@ scoreboard players set Blue xp_score 0
 # Force load areas
 forceload add 1990 -10 2010 10
 forceload add -1990 -10 -2010 10
+
+tellraw @s ["",{"text":"Prepare Field:"}]
+tellraw @s ["",{"text":"Stage 1","color":"green","clickEvent":{"action":"run_command","value":"/function xpr:setup/prep_2"},"hoverEvent":{"action":"show_text","value":["",{"text":"Clear terain","italic":true}]}}]
