@@ -23,4 +23,9 @@ scoreboard players set Yellow xp_score 0
 team join green Green
 scoreboard players set Green xp_score 0
 
-tp @s 0 100 -2000
+# Force load areas
+forceload add 1990 -10 2010 10
+forceload add -1990 -10 -2010 10
+
+forceload add -10 1990 10 2010
+forceload add -10 -1990 10 -2010
