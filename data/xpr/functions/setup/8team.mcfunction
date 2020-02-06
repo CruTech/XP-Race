@@ -56,5 +56,5 @@ forceload add -1990 1990 -2010 2010
 forceload add 1990 1990 2010 2010
 forceload add -1990 -1990 -2010 -2010
 
-/tellraw @s ["",{"text":"Prepare Field:"}]
-/tellraw @s ["",{"text":"Stage 1","color":"green","clickEvent":{"action":"run_command","value":"/function xpr:setup/prep_8"},"hoverEvent":{"action":"show_text","value":["",{"text":"Clear terain","italic":true}]}}]
+tellraw @s ["",{"text":"Prepare Field:"}]
+tellraw @s ["",{"text":"Stage 1","color":"green","clickEvent":{"action":"run_command","value":"/function xpr:setup/prep_8"},"hoverEvent":{"action":"show_text","value":["",{"text":"Clear terain","italic":true}]}}]
