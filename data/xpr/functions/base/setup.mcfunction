@@ -13,32 +13,6 @@ defaultgamemode survival
 tp @s 0 100 0
 setworldspawn 0 100 0
 
-# Create Teams
-team add red "Red"
-team modify red color dark_red
-team modify red friendlyFire false
-team add blue "Blue"
-team modify blue color dark_blue
-team modify blue friendlyFire false
-team add yellow "Yellow"
-team modify yellow color gold
-team modify yellow friendlyFire false
-team add green "Green"
-team modify green color dark_green
-team modify green friendlyFire false
-team add cyan "Cyan"
-team modify cyan color dark_aqua
-team modify cyan friendlyFire false
-team add purple "Purple"
-team modify purple color dark_purple
-team modify purple friendlyFire false
-team add gray "Gray"
-team modify gray color dark_gray
-team modify gray friendlyFire false
-team add black "Black"
-team modify black color black
-team modify black friendlyFire false
-
 # Set up scoreboards
 scoreboard objectives add xp_score dummy "Team Score"
 scoreboard objectives add xp xp
