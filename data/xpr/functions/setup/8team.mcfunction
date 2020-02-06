@@ -44,4 +44,14 @@ scoreboard players set Gray xp_score 0
 team join black Black
 scoreboard players set Black xp_score 0
 
-tp @s -2000 100 -2000
+# Force load areas
+forceload add 1990 -10 2010 10
+forceload add -1990 -10 -2010 10
+
+forceload add -10 1990 10 2010
+forceload add -10 -1990 10 -2010
+
+forceload add 1990 -1990 2010 -2010
+forceload add -1990 1990 -2010 2010
+forceload add 1990 1990 2010 2010
+forceload add -1990 -1990 -2010 -2010
