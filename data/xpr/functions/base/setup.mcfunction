@@ -1,6 +1,6 @@
 # Establish Admin
 tag @s add admin
-gamemode creative @s
+gamemode spectator @s
 effect clear @s
 clear @s bedrock
 
