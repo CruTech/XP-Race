@@ -12,4 +12,6 @@ scoreboard players set Red xp_score 0
 team join blue Blue
 scoreboard players set Blue xp_score 0
 
-tp @s -2000 100 0
+# Force load areas
+forceload add 1990 -10 2010 10
+forceload add -1990 -10 -2010 10
