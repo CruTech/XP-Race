@@ -21,6 +21,8 @@ scoreboard objectives add xp_previous dummy
 scoreboard objectives add death deathCount
 scoreboard objectives add cycle dummy
 scoreboard objectives add teams dummy
+scoreboard objectives add time minecraft.custom:minecraft.play_one_minute
+scoreboard objectives add duration trigger
 
 # Begin Active Setup Process
 tellraw @p ["",{"text":"\n"},{"text":"\n"},{"text":"~~~~~~~~~~~~~~~~~","bold":true}]
