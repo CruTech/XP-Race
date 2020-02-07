@@ -20,7 +20,6 @@ clear @s bedrock
 team add spectator
 team modify spectator collisionRule never
 team join spectator
-give @s minecraft:glass{display:{Name:"{\"text\":\"Spectator\"}"}} 16
 
 # Set up scoreboards
 scoreboard objectives add xp_score dummy "Team Score"
