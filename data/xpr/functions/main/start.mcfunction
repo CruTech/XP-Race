@@ -15,7 +15,8 @@ time set day
 gamerule doDaylightCycle true
 
 effect clear @a[tag=!admin]
-effect give @s[team=spectator] night_vision 1000000 1 true
+effect give @a[team=spectator] night_vision 1000000 1 true
+tag @s[tag=admin] add gamemaster
 
 tellraw @a ["",{"text":"\n"}]
 tellraw @a ["",{"text":"Let the XP Race begin!","color":"blue","bold":true}]
