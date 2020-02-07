@@ -3,6 +3,8 @@ tag @s add admin
 gamemode spectator @s
 effect clear @s
 clear @s bedrock
+team add spectator
+team modify spectator collisionRule never
 
 # Basic World Setup
 gamerule spawnRadius 1
