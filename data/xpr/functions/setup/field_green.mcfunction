@@ -1,5 +1,5 @@
 # Create Platform
-run fill ~4 ~8 ~4 ~-4 ~ ~-4 air
+fill ~4 ~8 ~4 ~-4 ~ ~-4 air
 fill ~3 ~-1 ~3 ~-3 ~-10 ~-3 stone
 fill ~3 ~-1 ~3 ~-3 ~-1 ~-3 minecraft:polished_andesite
 fill ~2 ~-1 ~2 ~-2 ~-1 ~-2 minecraft:stone
