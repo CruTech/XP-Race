@@ -33,9 +33,7 @@ scoreboard objectives add time minecraft.custom:minecraft.play_one_minute
 scoreboard objectives add duration trigger
 
 # Begin Active Setup Process
-tellraw @p ["",{"text":"\n"},{"text":"\n"},{"text":"~~~~~~~~~~~~~~~~~","bold":true}]
 tellraw @p ["",{"text":"\n"},{"text":"~~~~~~~~~~~~~~~~~","bold":true}]
 tellraw @p ["",{"text":"How Many Teams?","italic":true}]
 tellraw @p ["",{"text":"2 Teams ","underlined":true,"color":"blue","clickEvent":{"action":"run_command","value":"/function xpr:setup/2team"},"hoverEvent":{"action":"show_text","value":["",{"text":"2","italic":true}]}},{"text":"4 Teams ","underlined":true,"color":"gold","clickEvent":{"action":"run_command","value":"/function xpr:setup/4team"},"hoverEvent":{"action":"show_text","value":["",{"text":"4","italic":true}]}},{"text":"8 Teams ","underlined":true,"color":"dark_purple","clickEvent":{"action":"run_command","value":"/function xpr:setup/8team"},"hoverEvent":{"action":"show_text","value":["",{"text":"8","italic":true}]}}]
-tellraw @p ["",{"text":"\n"},{"text":"~~~~~~~~~~~~~~~~~","bold":true}]
-tellraw @p ["",{"text":"\n"},{"text":"~~~~~~~~~~~~~~~~~","bold":true}]
+tellraw @p ["",{"text":"~~~~~~~~~~~~~~~~~","bold":true}]
