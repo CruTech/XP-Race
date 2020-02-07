@@ -6,6 +6,7 @@ clear @s bedrock
 team add spectator
 team modify spectator collisionRule never
 team join spectator
+give @s minecraft:glass{display:{Name:"{\"text\":\"Spectator\"}"}} 16
 
 # Basic World Setup
 gamerule spawnRadius 1
