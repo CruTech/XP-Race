@@ -1,14 +1,7 @@
-# Establish Admin
-tag @s add admin
-gamemode creative @s
-effect clear @s
-clear @s bedrock
-team add spectator
-team modify spectator collisionRule never
-team join spectator
-give @s minecraft:glass{display:{Name:"{\"text\":\"Spectator\"}"}} 16
-
 # Basic World Setup
+gamerule sendCommandFeedback false
+gamerule commandBlockOutput false
+gamerule logAdminCommands false
 gamerule spawnRadius 1
 gamerule doImmediateRespawn true
 time set noon
@@ -18,6 +11,16 @@ tp @s 0 100 0
 setworldspawn 0 100 0
 fill -10 98 -10 10 103 10 barrier hollow
 run fill -5 98 -5 5 98 5 stone
+
+# Establish Admin
+tag @s add admin
+gamemode creative @s
+effect clear @s
+clear @s bedrock
+team add spectator
+team modify spectator collisionRule never
+team join spectator
+give @s minecraft:glass{display:{Name:"{\"text\":\"Spectator\"}"}} 16
 
 # Set up scoreboards
 scoreboard objectives add xp_score dummy "Team Score"
