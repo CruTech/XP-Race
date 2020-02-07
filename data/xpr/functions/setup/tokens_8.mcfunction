@@ -9,6 +9,4 @@ give @s minecraft:purple_concrete{display:{Name:"{\"text\":\"Purple Team\"}"}} 1
 give @s minecraft:gray_concrete{display:{Name:"{\"text\":\"Gray Team\"}"}} 16
 give @s minecraft:black_concrete{display:{Name:"{\"text\":\"Black Team\"}"}} 16
 
-give @s minecraft:glass{display:{Name:"{\"text\":\"Spectator\"}"}} 16
-
-function xpr:setup/ready
+function xpr:setup/duration
