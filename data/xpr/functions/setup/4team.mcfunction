@@ -30,5 +30,7 @@ forceload add -1990 -10 -2010 10
 forceload add -10 1990 10 2010
 forceload add -10 -1990 10 -2010
 
+# Next stage
+scoreboard players set @s teams 4
 tellraw @s ["",{"text":"Prepare Field:"}]
 tellraw @s ["",{"text":"Stage 1","color":"green","clickEvent":{"action":"run_command","value":"/function xpr:setup/prep_4"},"hoverEvent":{"action":"show_text","value":["",{"text":"Clear terain","italic":true}]}}]
