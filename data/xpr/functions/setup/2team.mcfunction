@@ -16,5 +16,7 @@ scoreboard players set Blue xp_score 0
 forceload add 1990 -10 2010 10
 forceload add -1990 -10 -2010 10
 
+# Next stage
+scoreboard players set @s teams 2
 tellraw @s ["",{"text":"Prepare Field:"}]
 tellraw @s ["",{"text":"Stage 1","color":"green","clickEvent":{"action":"run_command","value":"/function xpr:setup/prep_2"},"hoverEvent":{"action":"show_text","value":["",{"text":"Clear terain","italic":true}]}}]
