@@ -1,9 +1,9 @@
 # Run field creation functions
-execute at @e[name=Setup,x=2000,z=0] run function xpr:setup/red_field
-execute at @e[name=Setup,x=-2000,z=0] run function xpr:setup/blue_field
+execute as @e[name=Setup,x=2000,z=0,limit=1] at @e[name=Setup,x=2000,z=0,limit=1] run function xpr:setup/field_red
+execute as @e[name=Setup,x=2000,z=0,limit=1] at @e[name=Setup,x=-2000,z=0,limit=1] run function xpr:setup/field_blue
 
-execute at @e[name=Setup,x=0,z=2000] run function xpr:setup/yellow_field
-execute at @e[name=Setup,x=0,z=-2000] run function xpr:setup/green_field
+execute as @e[name=Setup,x=2000,z=0,limit=1] at @e[name=Setup,x=0,z=2000,limit=1] run function xpr:setup/field_yellow
+execute as @e[name=Setup,x=2000,z=0,limit=1] at @e[name=Setup,x=0,z=-2000,limit=1] run function xpr:setup/field_green
 
 # Prompt next stage
 tellraw @s ["",{"text":"Assign Teams:"}]
