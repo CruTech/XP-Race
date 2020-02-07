@@ -10,7 +10,7 @@ defaultgamemode survival
 tp @s 0 100 0
 setworldspawn 0 100 0
 fill -10 98 -10 10 103 10 barrier hollow
-run fill -5 98 -5 5 98 5 stone
+fill -5 98 -5 5 98 5 stone
 
 # Establish Admin
 tag @s add admin
