@@ -5,6 +5,7 @@ effect clear @s
 clear @s bedrock
 team add spectator
 team modify spectator collisionRule never
+team join spectator
 
 # Basic World Setup
 gamerule spawnRadius 1
