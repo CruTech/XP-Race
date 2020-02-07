@@ -7,4 +7,4 @@ execute as @e[name=Setup,x=0,z=-2000,limit=1] at @e[name=Setup,x=0,z=-2000,limit
 
 # Prompt next stage
 tellraw @s ["",{"text":"Assign Teams:"}]
-tellraw @s ["",{"text":"Manual ","underlined":true,"color":"blue","clickEvent":{"action":"run_command","value":"/function xpr:setup/tokens_4"},"hoverEvent":{"action":"show_text","value":["",{"text":"Unassigned players will be randomly assigned"}]}},{"text":"Random","underlined":true,"color":"green","clickEvent":{"action":"run_command","value":"/function xpr:setup/ready"},"hoverEvent":{"action":"show_text","value":["",{"text":"Random assign teams on game start"}]}}]
+tellraw @s ["",{"text":"Manual ","underlined":true,"color":"blue","clickEvent":{"action":"run_command","value":"/function xpr:setup/tokens_4"},"hoverEvent":{"action":"show_text","value":["",{"text":"Unassigned players will be randomly assigned"}]}},{"text":"Random","underlined":true,"color":"green","clickEvent":{"action":"run_command","value":"/function xpr:setup/duration"},"hoverEvent":{"action":"show_text","value":["",{"text":"Random assign teams on game start"}]}}]
