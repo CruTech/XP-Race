@@ -20,5 +20,4 @@ execute as @e[tag=admin] run fill ~ 62 ~ ~ 100 ~ air replace dark_oak_log
 execute as @e[tag=admin] run fill ~ 62 ~ ~ 100 ~ air replace bamboo
 
 # Summon entity to test terrain height
-scoreboard players set @s[tag=admin] time 0
-execute as @e[tag=admin] run summon minecraft:creeper ~ ~1 ~ {powered:1,CustomName:"\"Setup\"",CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,CanPickUpLoot:0b,Invulnerable:1,Tags:["admin"]}
+execute as @e[tag=admin] run summon minecraft:creeper ~ ~ ~ {powered:1,CustomName:"\"Setup\"",NoAI:1b,PersistenceRequired:1b,CanPickUpLoot:0b,Invulnerable:1,Tags:["admin"]}
