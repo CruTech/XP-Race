@@ -13,6 +13,7 @@ fill -10 98 -10 10 103 10 barrier hollow
 fill -5 99 -5 5 99 5 minecraft:stone_slab[type=bottom]
 
 # Establish Admin
+tag @s remove
 tag @s add admin
 gamemode creative @s
 effect clear @s
@@ -31,6 +32,7 @@ scoreboard objectives add cycle dummy
 scoreboard objectives add teams dummy
 scoreboard objectives add time minecraft.custom:minecraft.play_one_minute
 scoreboard objectives add duration trigger
+trigger duration set 72000
 
 # Begin Active Setup Process
 tellraw @p ["",{"text":"\n"},{"text":"~~~~~~~~~~~~~~~~~","bold":true}]
