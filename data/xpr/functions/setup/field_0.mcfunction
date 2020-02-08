@@ -5,6 +5,7 @@ tellraw @s "Please wait"
 
 fill -10 98 -10 10 106 10 barrier hollow
 fill -5 99 -5 5 99 5 minecraft:stone_slab[type=bottom]
+setblock 0 99 0 polished_andesite
 setblock 5 99 0 red_concrete
 setblock -5 99 0 blue_concrete
 setblock 0 99 5 yellow_concrete
