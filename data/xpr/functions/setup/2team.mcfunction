@@ -1,3 +1,5 @@
+function xpr:setup/field_0
+
 # Create Teams
 team add red "Red"
 team modify red color dark_red
