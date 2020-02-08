@@ -1,0 +1,21 @@
+{
+	"parent": "xpr:main/root",
+	"criteria":
+	{
+		"yellow":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{"item": "minecraft:yellow_concrete"}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:main/join_yellow"
+	}
+}
