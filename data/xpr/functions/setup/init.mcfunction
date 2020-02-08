@@ -30,8 +30,6 @@ scoreboard objectives add cycle dummy
 scoreboard objectives add teams dummy
 scoreboard objectives add time minecraft.custom:minecraft.play_one_minute
 scoreboard objectives add duration trigger
-scoreboard players enable @s duration
-trigger duration set 72000
 
 # Begin Active Setup Process
 tellraw @p ["",{"text":"\n"},{"text":"~~~~~~~~~~~~~~~~~","bold":true}]
