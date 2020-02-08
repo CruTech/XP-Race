@@ -1,0 +1,21 @@
+{
+	"parent": "xpr:main/root",
+	"criteria":
+	{
+		"gray":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{"item": "minecraft:gray_concrete"}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:main/join_gray"
+	}
+}
