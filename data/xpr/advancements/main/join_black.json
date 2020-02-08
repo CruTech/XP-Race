@@ -1,0 +1,21 @@
+{
+	"parent": "xpr:main/root",
+	"criteria":
+	{
+		"black":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{"item": "minecraft:black_concrete"}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:main/join_black"
+	}
+}
