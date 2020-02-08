@@ -1,0 +1,14 @@
+{
+	"parent": "xpr:main/root",
+	"criteria":
+	{
+		"leave":
+		{
+			"trigger": "minecraft:location"
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:main/pulse"
+	}
+}
