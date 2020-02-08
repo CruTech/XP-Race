@@ -1,0 +1,21 @@
+{
+	"parent": "xpr:main/root",
+	"criteria":
+	{
+		"cyan":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{"item": "minecraft:cyan_concrete"}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:main/join_cyan"
+	}
+}
