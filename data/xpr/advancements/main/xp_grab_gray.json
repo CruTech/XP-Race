@@ -1,0 +1,18 @@
+{
+	"parent": "xpr:main/root",
+	"criteria":
+	{
+		"gray":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:gray_banner"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:main/xp_grab_gray"
+	}
+}
