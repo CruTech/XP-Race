@@ -9,15 +9,13 @@ gamerule doDaylightCycle false
 defaultgamemode survival
 tp @s 0 100 0
 setworldspawn 0 100 0
-fill -10 98 -10 10 103 10 barrier hollow
-fill -5 99 -5 5 99 5 minecraft:stone_slab[type=bottom]
 
 # Establish Admin
 tag @s remove
 tag @s add admin
-gamemode creative @s
+gamemode spectator @s
 effect clear @s
-clear @s bedrock
+clear @s
 team add spectator
 team modify spectator collisionRule never
 team join spectator
@@ -32,6 +30,7 @@ scoreboard objectives add cycle dummy
 scoreboard objectives add teams dummy
 scoreboard objectives add time minecraft.custom:minecraft.play_one_minute
 scoreboard objectives add duration trigger
+scoreboard players enable @s duration
 trigger duration set 72000
 
 # Begin Active Setup Process
