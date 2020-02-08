@@ -2,20 +2,20 @@
 	"parent": "xpr:main/root",
 	"criteria":
 	{
-		"red":
+		"blue":
 		{
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
 			{
 				"items":
 				[
-					{"item": "minecraft:red_concrete"}
+					{"item": "minecraft:blue_concrete"}
 				]
 			}
 		}
 	},
 	"rewards":
 	{
-		"function": "xpr:main/join_red"
+		"function": "xpr:main/join_blue"
 	}
 }
