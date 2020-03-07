@@ -1,4 +1,4 @@
-execute if @p[scores={teams=8..}] run team join cyan
+execute if entity @p[scores={teams=8..}] run team join cyan
 
 clear @s cyan_concrete
 
