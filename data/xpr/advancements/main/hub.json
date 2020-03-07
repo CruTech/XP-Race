@@ -5,23 +5,22 @@
 		"hub":
 		{
 			"trigger": "minecraft:location",
-      "conditions":
-      {
+			"conditions":
+			{
 				"position":
 				{
 					"x":
-          {
-            "min": -2,
-            "max": 2  
-          },
+			  		{
+						"min": -2,
+						"max": 2  
+					},
 					"z":
-          {
-            "min": -2,
-            "max": 2  
-          },
+					{
+						"min": -2,
+						"max": 2  
+					},
 				}
 			}
-		}
 		}
 	},
 	"rewards":
