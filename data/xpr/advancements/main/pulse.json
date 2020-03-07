@@ -2,7 +2,7 @@
 	"parent": "xpr:main/root",
 	"criteria":
 	{
-		"leave":
+		"exist":
 		{
 			"trigger": "minecraft:location"
 		}
