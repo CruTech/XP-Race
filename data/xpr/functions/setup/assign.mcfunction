@@ -11,4 +11,4 @@ execute as @s[scores={teams=8..}] run team join gray @r[team=]
 execute as @s[scores={teams=8..}] run team join black @r[team=]
 
 # Re-run function if any players are not on a team
-execute if @p[team=] run function xpr:setup/assign
+execute if entity @p[team=] run function xpr:setup/assign
