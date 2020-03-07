@@ -17,4 +17,4 @@ scoreboard players set @s[scores={cycle=0}] cycle 1
 scoreboard players set @s[scores={death=1..}] death 0
 scoreboard players set @s[scores={death=1..}] cycle 0
 
-advancement revoke @s only xpr:2team/xp_grab_black
+advancement revoke @s only xpr:main/xp_grab_black
