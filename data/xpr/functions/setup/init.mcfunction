@@ -11,6 +11,7 @@ tp @s 0 100 0
 setworldspawn 0 100 0
 
 # Establish Admin
+op @s
 tag @s remove
 tag @s add admin
 gamemode creative @s
