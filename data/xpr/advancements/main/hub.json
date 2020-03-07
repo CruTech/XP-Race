@@ -1,0 +1,31 @@
+{
+	"parent": "xpr:main/root",
+	"criteria":
+	{
+		"hub":
+		{
+			"trigger": "minecraft:location",
+      "conditions":
+      {
+				"position":
+				{
+					"x":
+          {
+            "min": -2,
+            "max": 2  
+          },
+					"z":
+          {
+            "min": -2,
+            "max": 2  
+          },
+				}
+			}
+		}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:main/hub"
+	}
+}
