@@ -17,3 +17,5 @@ execute if @p[tag=gamemaster,scores={teams=8..}] at @e[name="Gray_Base"] run spa
 execute if @p[tag=gamemaster,scores={teams=8..}] at @e[name="Gray_Base"] run tp @s[team=gray] ~ ~-96 ~
 execute if @p[tag=gamemaster,scores={teams=8..}] at @e[name="Black_Base"] run spawnpoint @s[team=black] ~ ~-96 ~
 execute if @p[tag=gamemaster,scores={teams=8..}] at @e[name="Black_Base"] run tp @s[team=black] ~ ~-96 ~
+
+advancement revoke @s only xpr:main/hub
