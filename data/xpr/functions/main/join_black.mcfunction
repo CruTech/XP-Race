@@ -1,4 +1,4 @@
-execute if @p[scores={teams=8..}] run team join black
+execute if entity @p[scores={teams=8..}] run team join black
 
 clear @s black_concrete
 
