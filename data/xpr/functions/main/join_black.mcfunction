@@ -1,5 +1,5 @@
-execute if entity @p[scores={teams=8..}] run team join black
+execute if entity @p[scores={teams=8..}] run team join black @s[tag=!admin]
 
-clear @s black_concrete
+clear @s[tag=!admin] black_concrete
 
 advancement revoke @s only xpr:main/join_black

@@ -1,5 +1,5 @@
-execute if entity @p[scores={teams=8..}] run team join cyan
+execute if entity @p[scores={teams=8..}] run team join cyan @s[tag=!admin]
 
-clear @s cyan_concrete
+clear @s[tag=!admin] cyan_concrete
 
-advancement revoke @s only xpr:main/join_cyan
+advancement revoke @s[tag=!admin] only xpr:main/join_cyan
