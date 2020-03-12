@@ -1,5 +1,5 @@
-team join spectator
+team join spectator @s[tag=!admin]
 
-clear @s white_concrete
+clear @s[tag=!admin] white_concrete
 
-advancement revoke @s only xpr:main/join_spectator
+advancement revoke @s[tag=!admin] only xpr:main/join_spectator
