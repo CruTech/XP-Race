@@ -5,6 +5,7 @@ execute as @s[tag=admin] run function xpr:setup/assign
 xp set @a 0 points
 xp set @a 0 levels
 scoreboard objectives setdisplay belowName xp
+scoreboard objectives setdisplay list xp
 scoreboard objectives setdisplay sidebar xp_score
 
 # Start Game
@@ -16,6 +17,7 @@ gamerule doDaylightCycle true
 
 effect clear @a[tag=!admin]
 effect give @a[team=spectator] night_vision 1000000 1 true
+gamemode spectator @a[team=spectator]
 tag @s[tag=admin] add gamemaster
 
 tellraw @a ["",{"text":"\n"}]
