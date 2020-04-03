@@ -1,0 +1,16 @@
+Go through concrete powder recipes and make them actual recipes so they stop throwing error messages.
+
+summon minecraft:armor_stand ~ 150 ~ {CustomName:"\"Setup\""}
+Add ^ to spawn at 00 high enough to land on top of the hub and clear the way for it, or to land on created block at y=250
+Test for it at appropriate position to auto trigger field gen stage 2
+
+Replace hub slabs with blocks, causes server to think players are flying.
+
+add "/trigger start" and "/trigger end" triggers and functions
+
+figure out way to run multiple rounds on same world.
+  could run more games of fewer teams (2 games of 4 teams or 4 games of 2 teams)
+  could generate more platforms further out. could allow for near infinite games. would need to change to relative positioning
+    starting at 00 go out in 8 striaght lines
+    after each round, kill previous marker, rename current marker ("<Colour> Base Old"), generate new marker ("<Colour> Base").
+      May need to spawn new marker to show old, rather than rename
