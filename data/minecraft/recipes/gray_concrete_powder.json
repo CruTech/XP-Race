@@ -1,1 +1,12 @@
-{}
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients":
+	[
+		{"item": "minecraft:gray_concrete"}
+	],
+	"result":
+	{
+		"item": "minecraft:gray_concrete_powder"
+	}
+}
+

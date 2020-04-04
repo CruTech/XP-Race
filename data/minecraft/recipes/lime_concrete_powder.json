@@ -1,1 +1,12 @@
-{}
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients":
+	[
+		{"item": "minecraft:lime_concrete"}
+	],
+	"result":
+	{
+		"item": "minecraft:lime_concrete_powder"
+	}
+}
+
