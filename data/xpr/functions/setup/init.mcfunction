@@ -2,7 +2,7 @@
 gamerule sendCommandFeedback false
 gamerule commandBlockOutput false
 gamerule logAdminCommands false
-gamerule spawnRadius 1
+gamerule spawnRadius 4
 gamerule doImmediateRespawn true
 time set noon
 gamerule doDaylightCycle false
