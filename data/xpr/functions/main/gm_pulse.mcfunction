@@ -1,6 +1,7 @@
 # Pulses every second for gamemaster
 
 # Update remaining time
+scoreboard players enable @s duration
 scoreboard players operation @s duration -= @s time
 
 # Show titles with remaining time
