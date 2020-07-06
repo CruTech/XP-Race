@@ -14,7 +14,7 @@ setblock 5 99 -5 cyan_concrete
 setblock -5 99 5 purple_concrete
 setblock 5 99 5 gray_concrete
 setblock -5 99 -5 black_concrete
-setworldspawn 0 102 0
+setworldspawn 0 100 0
 
 kill @a[tag=!admin]
 
