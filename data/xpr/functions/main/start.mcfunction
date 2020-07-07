@@ -10,6 +10,7 @@ scoreboard objectives setdisplay sidebar xp_score
 
 # Start Game
 tp @a[tag=!admin] 0 100 0
+clear @a[tag=!admin]
 execute as @s[tag=admin] run title @a times 0 40 40
 execute as @s[tag=admin] run title @a title {"text":"GO!","color":"yellow","bold":true}
 
