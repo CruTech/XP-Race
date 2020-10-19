@@ -40,3 +40,14 @@ Game process:
 		> unassignes all players if number of teams changed
 	> rename (or spawn new and kill old) Base marker to Origin marker, /execute as Base to keep unused original origins
 	> platform generation and game start should function as normal from this point
+
+Book commands:
+> Generate Hub
+> Reset Players (clear inventories and tp to hub)
+> Number Of Teams (2,3,4,6,8)
+> Give Team Assignment Tokens
+> Game Duration (30,45,60,90,120 minutes)
+
+> Start Game
+> End Game
+> Regenerate
