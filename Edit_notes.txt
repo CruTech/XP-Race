@@ -34,6 +34,9 @@ Game process:
 	> based on duration scoreboard schedule corresponding countdown function
 		> displays remaining time and schedules next countdown function
 	> last countdown schedules end function, also available in book, and clears any schedules.
+	> score grab using /schedule to itterate
+	> {/scoreboard players operation Leader top_score > <Team> xp_score} at end of each score grab
+	> run {/execute if score <Team> xp_score = Leader top_score run scoreboard players add <Team> wins 1} for all teams at end of game (reset wins if teams are reassigned)
 > from book can create new game
 	> clears team scores
 	> gives promt that you can select new number of teams/duration
