@@ -13,6 +13,6 @@
 	},
 	"rewards":
 	{
-		"function": "xpr:main/xp_grab_yellow"
+		"function": "xpr:main/xp_grab/start_yellow"
 	}
 }
