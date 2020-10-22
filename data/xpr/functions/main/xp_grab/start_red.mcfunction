@@ -8,4 +8,3 @@ scoreboard players operation @s xp_current = @s xp
 schedule function xpr:main/xp_grab/subtract 1t append
 schedule function xpr:main/xp_grab/grab_red 2t append
 schedule function xpr:main/xp_grab/reset 3t append
-schedule function xpr:main/xp_grab/update 4t append
