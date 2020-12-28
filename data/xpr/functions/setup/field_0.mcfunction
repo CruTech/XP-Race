@@ -1,21 +1,27 @@
 gamemode creative @s
 clear @s
 
-tellraw @s "Please wait"
+fill 11 80 11 -11 49 -11 barrier hollow
+fill 10 50 10 -10 64 -10 white_concrete
+fill 10 64 1 8 65 -1 red_concrete
+fill -10 64 1 -8 65 -1 blue_concrete
+fill 1 64 10 -1 65 8 yellow_concrete
+fill 1 64 -10 -1 65 -8 green_concrete
+fill 10 64 -10 8 65 -8 cyan_concrete
+fill -10 64 10 -8 65 8 purple_concrete
+fill 10 64 10 8 65 8 gray_concrete
+fill -10 64 -10 -8 65 -8 black_concrete
+setblock 9 65 0 sea_lantern
+setblock -9 65 0 sea_lantern
+setblock 0 65 9 sea_lantern
+setblock 0 65 -9 sea_lantern
+setblock 9 65 -9 sea_lantern
+setblock -9 65 9 sea_lantern
+setblock 9 65 9 sea_lantern
+setblock -9 65 -9 sea_lantern
+setworldspawn 0 65 0
 
-fill -10 98 -10 10 106 10 barrier hollow
-fill -5 99 -5 5 99 5 minecraft:stone
-setblock 0 99 0 white_concrete
-setblock 5 99 0 red_concrete
-setblock -5 99 0 blue_concrete
-setblock 0 99 5 yellow_concrete
-setblock 0 99 -5 green_concrete
-setblock 5 99 -5 cyan_concrete
-setblock -5 99 5 purple_concrete
-setblock 5 99 5 gray_concrete
-setblock -5 99 -5 black_concrete
-setworldspawn 0 100 0
-
+gamerule doImmediateRespawn true
 kill @a[tag=!admin]
 
 scoreboard players enable @s duration
