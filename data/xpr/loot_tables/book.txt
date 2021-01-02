@@ -52,7 +52,7 @@ pages:
 ]','["",
   {"text":"Game Setup:","bold":true},{"text":"\\n","color":"reset"},
   {"text":"  "},{"text":"Generate Hub","clickEvent":{"action":"run_command","value":"/function xpr:field_0"},"hoverEvent":{"action":"show_text","contents":"Creates a central hub for players to spawn in. Required for game to run."}},
-  {"text":"\\n"},{"text":"  "},{"text":"Reset Players","clickEvent":{"action":"run_command","value":"/function xpr:reset"},"hoverEvent":{"action":"show_text","contents":"Clear player inventories and return to hub"}},{"text":"\\n"},
+  {"text":"\\n"},{"text":"  "},{"text":"Reset Players","clickEvent":{"action":"run_command","value":"/function xpr:clear"},"hoverEvent":{"action":"show_text","contents":"Clear player inventories and return to hub"}},{"text":"\\n"},
   {"text":"Teams:","bold":true},
   {"text":" \\n  ","color":"reset"},
     {"text":"2","clickEvent":{"action":"run_command","value":"/scoreboard teams 2"}},{"text":" "},
