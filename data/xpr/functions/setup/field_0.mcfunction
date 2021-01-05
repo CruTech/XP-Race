@@ -20,5 +20,5 @@ setblock 9 65 9 sea_lantern
 setblock -9 65 -9 sea_lantern
 setworldspawn 0 65 0
 
-gamerule doImmediateRespawn true
-kill @a[tag=!admin]
+tp @a 0 65 0
+clear @a[gamemode=survival]
