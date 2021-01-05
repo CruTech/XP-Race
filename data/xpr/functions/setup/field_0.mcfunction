@@ -1,5 +1,4 @@
 gamemode creative @s
-clear @s
 
 fill 11 80 11 -11 49 -11 barrier hollow
 fill 10 50 10 -10 64 -10 white_concrete
@@ -23,7 +22,3 @@ setworldspawn 0 65 0
 
 gamerule doImmediateRespawn true
 kill @a[tag=!admin]
-
-scoreboard players enable @s duration
-trigger duration set 72000
-scoreboard players enable @s duration
