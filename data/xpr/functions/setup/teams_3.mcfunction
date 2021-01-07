@@ -1,6 +1,6 @@
 # If changing number of teams, reset team assignments and team wins.
-execute unless score ♦Admin♦ teams matches 4 run function xpr:setup/team_change
-scoreboard players set ♦Admin♦ teams 4
+execute unless score ♦Admin♦ teams matches 3 run function xpr:setup/team_change
+scoreboard players set ♦Admin♦ teams 3
 
 # Set Hub Banners
 setblock 9 66 0 red_banner[rotation=4]
