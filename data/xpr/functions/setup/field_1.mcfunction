@@ -27,3 +27,4 @@ execute if score ♦Admin♦ teams matches 5.. positioned as @e[name=Cyan_Origin
 execute if score ♦Admin♦ teams matches 6.. positioned as @e[name=Purple_Origin] run execute positioned ~-2000 150 ~2000 run execute positioned as @e[name=Setup,limit=1,sort=nearest] run schedule function xpr:setup/field_purple 60
 execute if score ♦Admin♦ teams matches 7.. positioned as @e[name=Gray_Origin] run execute positioned ~2000 150 ~2000 run execute positioned as @e[name=Setup,limit=1,sort=nearest] run schedule function xpr:setup/field_gray 60
 execute if score ♦Admin♦ teams matches 8.. positioned as @e[name=Black_Origin] run execute positioned ~-2000 150 ~-2000 run execute positioned as @e[name=Setup,limit=1,sort=nearest] run schedule function xpr:setup/field_black 60
+
