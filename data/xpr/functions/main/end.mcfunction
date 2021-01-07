@@ -4,13 +4,16 @@ title @a title ["",{"text":"END"}]
 scoreboard players set ♦Admin♦ game 2
 
 # Clear any scheduled countdown events
-schedule clear xpr:main/countdown/30
-schedule clear xpr:main/countdown/45
-schedule clear xpr:main/countdown/60
-schedule clear xpr:main/countdown/90
-schedule clear xpr:main/countdown/2
-schedule clear xpr:main/countdown/3
-schedule clear xpr:main/countdown/4
+schedule clear xpr:main/countdown/1m
+schedule clear xpr:main/countdown/5m
+schedule clear xpr:main/countdown/15m
+schedule clear xpr:main/countdown/30m
+schedule clear xpr:main/countdown/45m
+schedule clear xpr:main/countdown/60m
+schedule clear xpr:main/countdown/90m
+schedule clear xpr:main/countdown/2h
+schedule clear xpr:main/countdown/3h
+schedule clear xpr:main/countdown/4h
 
 # Find and announce winning team
 scoreboard objectives setdisplay sidebar wins
