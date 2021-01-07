@@ -12,6 +12,7 @@ scoreboard objectives setdisplay sidebar xp_score
 clear @a[tag=!admin]
 title @a times 0 40 40
 title {"text":"GO!","color":"yellow","bold":true}
+scoreboard players set ♦Admin♦ game 1
 
 # Restart daylight cycle
 time set day
