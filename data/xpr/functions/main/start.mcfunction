@@ -28,10 +28,10 @@ tellraw @a ["",{"text":"The aim of the game is to obtain as much experience as y
 tellraw @a ["",{"text":"\n"}]
 
 # Schedule first time indicator
-execute if score ♦Admin♦ duration matches 30 run schedule function xpr:main/countdown/30 50 append
-execute if score ♦Admin♦ duration matches 45 run schedule function xpr:main/countdown/45 50 append
-execute if score ♦Admin♦ duration matches 60 run schedule function xpr:main/countdown/60 50 append
-execute if score ♦Admin♦ duration matches 90 run schedule function xpr:main/countdown/90 50 append
-execute if score ♦Admin♦ duration matches 2 run schedule function xpr:main/countdown/2 50 append
-execute if score ♦Admin♦ duration matches 3 run schedule function xpr:main/countdown/3 50 append
-execute if score ♦Admin♦ duration matches 4 run schedule function xpr:main/countdown/4 50 append
+execute if score ♦Admin♦ duration matches 30 run schedule function xpr:main/countdown/30m 50 append
+execute if score ♦Admin♦ duration matches 45 run schedule function xpr:main/countdown/45m 50 append
+execute if score ♦Admin♦ duration matches 60 run schedule function xpr:main/countdown/60m 50 append
+execute if score ♦Admin♦ duration matches 90 run schedule function xpr:main/countdown/90m 50 append
+execute if score ♦Admin♦ duration matches 2 run schedule function xpr:main/countdown/2h 50 append
+execute if score ♦Admin♦ duration matches 3 run schedule function xpr:main/countdown/3h 50 append
+execute if score ♦Admin♦ duration matches 4 run schedule function xpr:main/countdown/4h 50 append
