@@ -27,7 +27,7 @@ Version 3.0
 Page Two:
 Game Setup:
 Generate Hub
-Reset Players
+Generate Gamefield
 Teams: 
 2 3 4 6 8
 Team Assignment Tokens
@@ -51,16 +51,16 @@ pages:
   {"text":"     Version 3.0","italic":true}
 ]','["",
   {"text":"Game Setup:","bold":true},{"text":"\\n","color":"reset"},
-  {"text":"  "},{"text":"Generate Hub","clickEvent":{"action":"run_command","value":"/function xpr:field_0"},"hoverEvent":{"action":"show_text","contents":"Creates a central hub for players to spawn in. Required for game to run."}},
-  {"text":"\\n"},{"text":"  "},{"text":"Reset Players","clickEvent":{"action":"run_command","value":"/function xpr:clear"},"hoverEvent":{"action":"show_text","contents":"Clear player inventories and return to hub"}},{"text":"\\n"},
+  {"text":"  "},{"text":"Generate Hub","clickEvent":{"action":"run_command","value":"/function xpr:setup/field_0"},"hoverEvent":{"action":"show_text","contents":"Creates a central hub for players to spawn in. Required for game to run."}},
+  {"text":"\\n"},{"text":"  "},{"text":"Generate Gamefield","clickEvent":{"action":"run_command","value":"/function xpr:setup/field_1"},"hoverEvent":{"action":"show_text","contents":"Generate team spawn platforms. Run every round."}},{"text":"\\n"},
   {"text":"Teams:","bold":true},
   {"text":" \\n  ","color":"reset"},
-    {"text":"2","clickEvent":{"action":"run_command","value":"/scoreboard teams 2"}},{"text":" "},
-    {"text":"3","clickEvent":{"action":"run_command","value":"/scoreboard teams 3"}},{"text":" "},
-    {"text":"4","clickEvent":{"action":"run_command","value":"/scoreboard teams 4"}},{"text":" "},
-    {"text":"6","clickEvent":{"action":"run_command","value":"/scoreboard teams 6"}},{"text":" "},
-    {"text":"8","clickEvent":{"action":"run_command","value":"/scoreboard teams 8"}},{"text":"\\n"},
-  {"text":"  "},{"text":"Team Tokens","clickEvent":{"action":"run_command","value":"/function xpr:tokens"},"hoverEvent":{"action":"show_text","contents":"Gives Concrete of the available team colours. Give these to players to assign them to that team."}},
+    {"text":"2","clickEvent":{"action":"run_command","value":"/function xpr:setup/teams_2"}},{"text":" "},
+    {"text":"3","clickEvent":{"action":"run_command","value":"/function xpr:setup/teams_3"}},{"text":" "},
+    {"text":"4","clickEvent":{"action":"run_command","value":"/function xpr:setup/teams_4"}},{"text":" "},
+    {"text":"6","clickEvent":{"action":"run_command","value":"/function xpr:setup/teams_6"}},{"text":" "},
+    {"text":"8","clickEvent":{"action":"run_command","value":"/function xpr:setup/teams_8"}},{"text":"\\n"},
+  {"text":"  "},{"text":"Team Tokens","clickEvent":{"action":"run_command","value":"/function xpr:setup/tokens"},"hoverEvent":{"action":"show_text","contents":"Gives Concrete of the available team colours. Give these to players to assign them to that team."}},
   {"text":"\\n"},{"text":"Runtime:","bold":true},{"text":"\\n  ","color":"reset"},
     {"text":"30m","clickEvent":{"action":"run_command","value":"/scoreboard duration 30"}},{"text":" "},
     {"text":"45m","clickEvent":{"action":"run_command","value":"/scoreboard duration 45"}},{"text":" "},
@@ -70,7 +70,7 @@ pages:
     {"text":"3h","clickEvent":{"action":"run_command","value":"/scoreboard duration 3"}},{"text":" "},
     {"text":"4h","clickEvent":{"action":"run_command","value":"/scoreboard duration 4"}},{"text":"\\n\\n\\n"},
   {"text":".. ","color":"white"},
-    {"text":"Start","color":"dark_green","clickEvent":{"action":"run_command","value":"/function xpr:start"},"hoverEvent":{"action":"show_text","contents":"Start Game. Unassigned players will be randomly assigned."}},{"text":" \\u2733 ","color":"reset"},
-    {"text":"End","color":"red","clickEvent":{"action":"run_command","value":"/function xpr:end"},"hoverEvent":{"action":"show_text","contents":"End Game. Players will be put in spectator and winning team announced."}},{"text":" \\u2733 ","color":"reset"},
-    {"text":"Reset","color":"light_purple","clickEvent":{"action":"run_command","value":"/function xpr:reset"},"hoverEvent":{"action":"show_text","contents":"Reset game. A new set of platforms will be created. You can change number of teams and duration if you wish."}}
+    {"text":"Start","color":"dark_green","clickEvent":{"action":"run_command","value":"/function xpr:main/start"},"hoverEvent":{"action":"show_text","contents":"Start Game. Unassigned players will be randomly assigned."}},{"text":" \\u2733 ","color":"reset"},
+    {"text":"End","color":"red","clickEvent":{"action":"run_command","value":"/function xpr:main/end"},"hoverEvent":{"action":"show_text","contents":"End Game. Players will be put in spectator and winning team announced."}},{"text":" \\u2733 ","color":"reset"},
+    {"text":"Reset","color":"light_purple","clickEvent":{"action":"run_command","value":"/function xpr:main/reset"},"hoverEvent":{"action":"show_text","contents":"Reset game. A new set of platforms will be created. You can change number of teams and duration if you wish."}}
 ]']}
