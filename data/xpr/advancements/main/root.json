@@ -11,9 +11,5 @@
     "criteria":
     {
         "instant": {"trigger": "minecraft:tick"}
-    },
-  	"rewards":
-  	{
-  		"function": "xpr:main/join"
-  	}
+    }
 }
