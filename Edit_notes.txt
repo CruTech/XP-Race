@@ -1,3 +1,12 @@
+function main/clear
+	clear inventory and scores of players, set gamemode survival, tp to hub
+function ?/team_change
+	empty all teams, reset team wins
+functions main/countdown/(numerous)
+	title with remaining time, schedule next in sequence
+
+
+-------------------------------------------------------------------------------
 Integrate /schedule to any valid functions
 
 redesign the hub
