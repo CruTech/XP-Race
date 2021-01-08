@@ -32,4 +32,4 @@ scoreboard platers set ♦Admin♦ top_score 0
 scoreboard platers set ♦Admin♦ game 0
 
 function xpr:main/clear
-function xpr:setup/field_1
+schedule function xpr:setup/field_1 1s append
