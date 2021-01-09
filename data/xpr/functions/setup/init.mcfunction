@@ -53,8 +53,6 @@ team add black "Black"
 team modify black color black
 team modify black friendlyFire false
 team join black Black
-team add spectator "Spectator"
-team modify spectator collisionRule never
 
 # Set up scoreboards
 scoreboard objectives add xp_score dummy "Team Score"
