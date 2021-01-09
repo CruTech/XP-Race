@@ -28,8 +28,8 @@ execute if score ♦Admin♦ teams matches 7.. run scoreboard players set Gray x
 execute if score ♦Admin♦ teams matches 8.. run scoreboard players set Black xp_score 0
 
 # Reset admin scores
-scoreboard platers set ♦Admin♦ top_score 0
-scoreboard platers set ♦Admin♦ game 0
+scoreboard players set ♦Admin♦ top_score 0
+scoreboard players set ♦Admin♦ game 0
 
 function xpr:main/clear
 schedule function xpr:setup/field_1 1s append
