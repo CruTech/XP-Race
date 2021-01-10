@@ -1,2 +1,2 @@
 # Reset cycle of all players
-scoreboard players set @s cycle 0
+scoreboard players set @a cycle 0
