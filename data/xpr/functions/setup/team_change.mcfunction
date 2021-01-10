@@ -8,4 +8,4 @@ scoreboard players set Cyan wins 0
 scoreboard players set Purple wins 0
 scoreboard players set Gray wins 0
 scoreboard players set Black wins 0
-tp @a[tag=!admin] 0 68 0
+tp @a[tag=!admin] 0 78 0
