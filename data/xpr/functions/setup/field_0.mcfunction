@@ -42,14 +42,14 @@ setblock -9 75 -9 sea_lantern
 setworldspawn 0 75 0
 
 # Create initial markers for field generation
-summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Red_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1,Team:spectator}
-summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Blue_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1,Team:spectator}
-summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Yellow_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1,Team:spectator}
-summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Green_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1,Team:spectator}
-summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Cyan_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1,Team:spectator}
-summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Purple_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1,Team:spectator}
-summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Gray_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1,Team:spectator}
-summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Black_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1,Team:spectator}
+summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Red_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
+summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Blue_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
+summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Yellow_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
+summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Green_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
+summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Cyan_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
+summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Purple_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
+summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Gray_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
+summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Black_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
 
 
 tp @a 0 75 0
