@@ -14,7 +14,7 @@ tag @s remove
 tag @s add admin
 gamemode creative @s
 effect clear @s
-clear @s
+clear @s bedrock
 team add spectator
 team modify spectator collisionRule never
 team join spectator
