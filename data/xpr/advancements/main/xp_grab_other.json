@@ -1,0 +1,74 @@
+{
+	"parent": "xpr:main/root",
+	"criteria":
+	{
+		"white":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:white_banner"
+			}
+		},
+		"orange":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:orange_banner"
+			}
+		},
+		"magenta":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:magenta_banner"
+			}
+		},
+		"light_blue":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:light_blue_banner"
+			}
+		},
+		"lime":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:lime_banner"
+			}
+		},
+		"pink":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:pink_banner"
+			}
+		},
+		"light_gray":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:light_gray_banner"
+			}
+		},
+		"brown":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:brown_banner"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:main/xp_grab/grab_other"
+	}
+}
