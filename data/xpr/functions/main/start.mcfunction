@@ -20,7 +20,7 @@ gamerule doDaylightCycle true
 
 effect clear @a[tag=!admin]
 effect give @a[team=spectator] night_vision 1000000 1 true
-gamemode spectator @a[team=spectator]
+gamemode spectator @a[team=spectator,tag=!admin]
 
 tellraw @a ["",{"text":"\n"}]
 tellraw @a ["",{"text":"Let the XP Race begin!","color":"blue","bold":true}]
