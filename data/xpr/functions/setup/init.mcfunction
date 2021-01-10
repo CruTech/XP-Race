@@ -61,6 +61,7 @@ scoreboard objectives add xp xp
 scoreboard objectives add xp_current dummy
 scoreboard objectives add xp_previous dummy
 scoreboard objectives add death deathCount
+scoreboard objectives add cycle dummy
 scoreboard objectives add teams dummy
 scoreboard objectives add duration dummy
 scoreboard objectives add wins dummy "Team Wins"
