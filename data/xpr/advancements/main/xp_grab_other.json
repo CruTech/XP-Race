@@ -67,6 +67,19 @@
 			}
 		}
 	},
+	"requirements":
+	[
+		[
+			"white",
+			"orange",
+			"magenta",
+			"light_blue",
+			"lime",
+			"pink",
+			"light_gray",
+			"brown"
+		]
+	],
 	"rewards":
 	{
 		"function": "xpr:main/xp_grab/grab_other"
