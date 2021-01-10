@@ -1,9 +1,9 @@
 gamemode creative @s
 
 # Create Hub
-fill 11 120 11 -11 60 -11 barrier replace air
-fill 11 120 11 -11 75 -11 barrier hollow
-fill 10 70 10 -10 119 -10 air
+fill 11 100 11 -11 60 -11 barrier replace air
+fill 11 100 11 -11 75 -11 barrier hollow
+fill 10 70 10 -10 100 -10 air
 fill 10 60 10 -10 74 -10 white_concrete
 
 fill 11 75 2 7 77 -2 barrier hollow
