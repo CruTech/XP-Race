@@ -35,3 +35,7 @@ execute if score ♦Admin♦ duration matches 90 run schedule function xpr:main/
 execute if score ♦Admin♦ duration matches 2 run schedule function xpr:main/countdown/2h 5s append
 execute if score ♦Admin♦ duration matches 3 run schedule function xpr:main/countdown/3h 5s append
 execute if score ♦Admin♦ duration matches 4 run schedule function xpr:main/countdown/4h 5s append
+
+# Heal players and reset cycle
+function xpr:main/xp_grab/reset
+effect give @a regeneration 1 255
