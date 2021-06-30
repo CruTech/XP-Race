@@ -17,7 +17,6 @@ effect clear @s
 clear @s bedrock
 team add spectator
 team modify spectator collisionRule never
-team join spectator
 loot give @s loot xpr:book
 
 # Set up teams

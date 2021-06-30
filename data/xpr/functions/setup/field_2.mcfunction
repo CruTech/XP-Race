@@ -6,3 +6,6 @@ execute if score ♦Admin♦ teams matches 5.. positioned as @e[name=Cyan_Origin
 execute if score ♦Admin♦ teams matches 6.. positioned as @e[name=Purple_Origin] run execute positioned ~-2000 150 ~2000 run function xpr:setup/field_prep
 execute if score ♦Admin♦ teams matches 7.. positioned as @e[name=Gray_Origin] run execute positioned ~2000 150 ~2000 run function xpr:setup/field_prep
 execute if score ♦Admin♦ teams matches 8.. positioned as @e[name=Black_Origin] run execute positioned ~-2000 150 ~-2000 run function xpr:setup/field_prep
+
+
+tellraw @a[tag=admin] {"text":"Creating Spawn Platforms","color":"green"}
