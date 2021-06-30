@@ -36,6 +36,9 @@ execute if score ♦Admin♦ duration matches 2 run schedule function xpr:main/c
 execute if score ♦Admin♦ duration matches 3 run schedule function xpr:main/countdown/3h 5s append
 execute if score ♦Admin♦ duration matches 4 run schedule function xpr:main/countdown/4h 5s append
 
+# Schedule shield xp grab
+schedule function xpr:main/xp_grab/shield_0 65s
+
 # Heal players and reset cycle
 function xpr:main/xp_grab/reset
 effect give @a regeneration 1 255
