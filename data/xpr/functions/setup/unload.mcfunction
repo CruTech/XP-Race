@@ -17,3 +17,7 @@ execute if entity @e[name=Cyan_Base] positioned as @e[name=Cyan_Base] run forcel
 execute if entity @e[name=Purple_Base] positioned as @e[name=Purple_Base] run forceload remove ~1990 ~-1990 ~2010 ~-2010
 execute if entity @e[name=Gray_Base] positioned as @e[name=Gray_Base] run forceload remove ~-1990 ~-1990 ~-2010 ~-2010
 execute if entity @e[name=Black_Base] positioned as @e[name=Black_Base] run forceload remove ~1990 ~1990 ~2010 ~2010
+
+
+
+tellraw @a[tag=admin] {"text":"Ready To Play","color":"green"}
