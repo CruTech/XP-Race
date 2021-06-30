@@ -14,4 +14,4 @@ schedule function xpr:main/xp_grab/shield_1 1
 schedule function xpr:main/xp_grab/shield_2 2
 schedule function xpr:main/xp_grab/shield_3 3
 
-schedule function xpr:main/xp_grab/shield_0 60s
+execute if score ♦Admin♦ game matches 1 run schedule function xpr:main/xp_grab/shield_0 60s
