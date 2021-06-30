@@ -8,4 +8,4 @@ execute if score ♦Admin♦ teams matches 7.. positioned as @e[name=Gray_Origin
 execute if score ♦Admin♦ teams matches 8.. positioned as @e[name=Black_Origin] run execute positioned ~-2000 150 ~-2000 run function xpr:setup/field_prep
 
 
-tellraw @a[tag=admin] {"text":"Creating Spawn Platforms","color":"green"}
+tellraw @a[tag=admin] {"text":"Pruning Previous Regions","color":"green"}
