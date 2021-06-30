@@ -8,6 +8,8 @@ execute if score ♦Admin♦ teams matches 6.. positioned as @e[name=Purple_Orig
 execute if score ♦Admin♦ teams matches 7.. positioned as @e[name=Gray_Origin] run forceload add ~1990 ~1990 ~2010 ~2010
 execute if score ♦Admin♦ teams matches 8.. positioned as @e[name=Black_Origin] run forceload add ~-1990 ~-1990 ~-2010 ~-2010
 
+tellraw @a[tag=admin] {"text":"Loading Terrain","color":"green"}
+
 # Schedule terrain testing
 schedule function xpr:setup/field_2 1s append
 
