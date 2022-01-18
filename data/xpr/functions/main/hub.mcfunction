@@ -16,4 +16,7 @@ execute if score ♦Admin♦ game matches 1 if score ♦Admin♦ teams matches 7
 execute if score ♦Admin♦ game matches 1 if score ♦Admin♦ teams matches 8.. positioned as @e[name="Black_Base"] run spawnpoint @s[team=black] ~ ~-96 ~
 execute if score ♦Admin♦ game matches 1 if score ♦Admin♦ teams matches 8.. positioned as @e[name="Black_Base"] run spreadplayers ~ ~ 1 3 true @s[team=black]
 
+# If in auto mode, assign all players to Red team
+execute if score ♦Admin♦ auto matches 1 run team join red @s[tag=!admin]
+
 advancement revoke @s only xpr:main/hub
