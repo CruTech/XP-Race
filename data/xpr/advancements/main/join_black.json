@@ -9,7 +9,7 @@
 			{
 				"items":
 				[
-					{"item": "minecraft:black_concrete"}
+					{"items": ["minecraft:black_concrete"]}
 				]
 			}
 		}
