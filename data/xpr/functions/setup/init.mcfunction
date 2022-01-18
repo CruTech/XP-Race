@@ -66,6 +66,8 @@ scoreboard objectives add duration dummy
 scoreboard objectives add wins dummy "Team Wins"
 scoreboard objectives add game dummy
 scoreboard players set ♦Admin♦ game 0
+scoreboard objectives add auto dummy
+scoreboard players set ♦Admin♦ auto 0
 
 # Scoreboards for additional features
 #scoreboard objectives add q_time dummy
