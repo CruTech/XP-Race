@@ -43,4 +43,5 @@ schedule function xpr:main/xp_grab/shield_0 64s
 
 # Heal players and reset cycle
 function xpr:main/xp_grab/reset
-effect give @a regeneration 1 255
+effect give @a regeneration 3 255
+effect give @a saturation 10 255
