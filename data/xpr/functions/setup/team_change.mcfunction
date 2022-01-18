@@ -9,3 +9,6 @@ scoreboard players set Purple wins 0
 scoreboard players set Gray wins 0
 scoreboard players set Black wins 0
 tp @a[tag=!admin] 0 78 0
+
+#set auto to false
+scoreboard players set ♦Admin♦ auto 0
