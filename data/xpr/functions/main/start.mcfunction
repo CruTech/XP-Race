@@ -24,7 +24,9 @@ gamemode spectator @a[team=spectator,tag=!admin]
 
 tellraw @a ["",{"text":"\n"}]
 tellraw @a ["",{"text":"Let the XP Race begin!","color":"blue","bold":true}]
-tellraw @a ["",{"text":"The aim of the game is to obtain as much experience as you can and return it to your flag to get points."}]
+tellraw @a ["",{"text":"The aim of the game is to obtain as much experience as you can and return it to your banner to get points."}]
+tellraw @a ["",{"text":"You can move or recreate your team banner."}]
+tellraw @a ["",{"text":"And you can use a shield with your team banner."}]
 tellraw @a ["",{"text":"\n"}]
 
 # Schedule first time indicator
@@ -37,7 +39,7 @@ execute if score ♦Admin♦ duration matches 3 run schedule function xpr:main/c
 execute if score ♦Admin♦ duration matches 4 run schedule function xpr:main/countdown/4h 5s append
 
 # Schedule shield xp grab
-schedule function xpr:main/xp_grab/shield_0 65s
+schedule function xpr:main/xp_grab/shield_0 64s
 
 # Heal players and reset cycle
 function xpr:main/xp_grab/reset
