@@ -36,5 +36,5 @@ execute if score Gray xp_score = ♦Admin♦ top_score run title @a actionbar ["
 execute if score Black xp_score = ♦Admin♦ top_score run title @a actionbar ["",{"text":"Black team wins!","color":"black","bold":true}]
 
 # If in auto mode, run reset and start new game in 5 minutes
-execute if score ♦Admin♦ auto matches 1 run schedule function xpr:main/reset 225s
-execute if score ♦Admin♦ auto matches 1 run schedule function xpr:main/start 255s
+execute if score ♦Admin♦ auto matches 1 run schedule function xpr:main/reset 60s
+execute if score ♦Admin♦ auto matches 1 run schedule function xpr:main/start 85s
