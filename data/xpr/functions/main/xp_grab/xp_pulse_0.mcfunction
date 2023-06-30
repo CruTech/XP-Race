@@ -2,6 +2,7 @@
 schedule function xpr:main/xp_grab/xp_pulse_1 1t
 schedule function xpr:main/xp_grab/xp_pulse_2 2t
 schedule function xpr:main/xp_grab/xp_pulse_3 3t
+schedule function xpr:main/xp_grab/xp_pulse_4 4t
 
 schedule function xpr:main/xp_grab/xp_pulse_0 1s
 

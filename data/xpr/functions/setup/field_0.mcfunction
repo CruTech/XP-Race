@@ -41,6 +41,8 @@ setblock 9 75 9 sea_lantern
 setblock -9 75 -9 sea_lantern
 setworldspawn 0 75 0
 
+execute unless entity @e[type=marker,tag=XPR,tag=Hub] run summon minecraft:marker 0 100 0 {Tags:["XPR","Hub"]}
+
 # Create initial markers for field generation
 execute unless entity @e[type=marker,tag=XPR,tag=Red_Origin] run summon minecraft:marker 0 100 0 {Tags:["XPR","Red_Origin"]}
 execute unless entity @e[type=marker,tag=XPR,tag=Blue_Origin] run summon minecraft:marker 0 100 0 {Tags:["XPR","Blue_Origin"]}
