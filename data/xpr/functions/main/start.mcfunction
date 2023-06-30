@@ -8,6 +8,14 @@ scoreboard objectives setdisplay belowName xp
 scoreboard objectives setdisplay list xp
 scoreboard objectives setdisplay sidebar xp_score
 
+# Revoke vanilla advancements
+# All advancements now grant at least 25xp
+advancement revoke @a from adventure/root
+advancement revoke @a from end/root
+advancement revoke @a from husbandry/root
+advancement revoke @a from nether/root
+advancement revoke @a from story/root
+
 # Start Game
 clear @a[tag=!admin]
 title @a times 0 40 40
