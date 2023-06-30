@@ -1,7 +1,7 @@
 # Basic World Setup
-gamerule sendCommandFeedback false
+gamerule sendCommandFeedback true
 gamerule commandBlockOutput false
-gamerule logAdminCommands false
+gamerule logAdminCommands true
 gamerule spawnRadius 4
 gamerule doImmediateRespawn true
 time set noon

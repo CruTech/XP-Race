@@ -38,7 +38,8 @@ execute if score ♦Admin♦ duration matches 2 run schedule function xpr:main/c
 execute if score ♦Admin♦ duration matches 3 run schedule function xpr:main/countdown/3h 5s append
 execute if score ♦Admin♦ duration matches 4 run schedule function xpr:main/countdown/4h 5s append
 
-# Schedule shield xp grab
+# Schedule banner and shield xp grab
+schedule function xpr:main/xp_grab/xp_pulse_0 5s
 schedule function xpr:main/xp_grab/shield_0 64s
 
 # Heal players and reset cycle
