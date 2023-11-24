@@ -1,12 +1,20 @@
-# Rename previous bases to new origins to generate new gamefields
-data modify entity @e[name=Red_Base,limit=1,sort=nearest] CustomName set value "\"Red_Origin\""
-data modify entity @e[name=Blue_Base,limit=1,sort=nearest] CustomName set value "\"Blue_Origin\""
-data modify entity @e[name=Yellow_Base,limit=1,sort=nearest] CustomName set value "\"Yellow_Origin\""
-data modify entity @e[name=Green_Base,limit=1,sort=nearest] CustomName set value "\"Green_Origin\""
-data modify entity @e[name=Cyan_Base,limit=1,sort=nearest] CustomName set value "\"Cyan_Origin\""
-data modify entity @e[name=Purple_Base,limit=1,sort=nearest] CustomName set value "\"Purple_Origin\""
-data modify entity @e[name=Gray_Base,limit=1,sort=nearest] CustomName set value "\"Gray_Origin\""
-data modify entity @e[name=Black_Base,limit=1,sort=nearest] CustomName set value "\"Black_Origin\""
+# Retag previous Bases to new Origins to generate new gamefields
+execute if entity @e[tag=XPR,tag=Red_Base] run tag @e[tag=XPR,tag=Red_Base] add Red_Origin
+execute if entity @e[tag=XPR,tag=Red_Base] run tag @e[tag=XPR,tag=Red_Base] remove Red_Base
+execute if entity @e[tag=XPR,tag=Blue_Base] run tag @e[tag=XPR,tag=Blue_Base] add Blue_Origin
+execute if entity @e[tag=XPR,tag=Blue_Base] run tag @e[tag=XPR,tag=Blue_Base] remove Blue_Base
+execute if entity @e[tag=XPR,tag=Yellow_Base] run tag @e[tag=XPR,tag=Yellow_Base] add Yellow_Origin
+execute if entity @e[tag=XPR,tag=Yellow_Base] run tag @e[tag=XPR,tag=Yellow_Base] remove Yellow_Base
+execute if entity @e[tag=XPR,tag=Green_Base] run tag @e[tag=XPR,tag=Green_Base] add Green_Origin
+execute if entity @e[tag=XPR,tag=Green_Base] run tag @e[tag=XPR,tag=Green_Base] remove Green_Base
+execute if entity @e[tag=XPR,tag=Cyan_Base] run tag @e[tag=XPR,tag=Cyan_Base] add Cyan_Origin
+execute if entity @e[tag=XPR,tag=Cyan_Base] run tag @e[tag=XPR,tag=Cyan_Base] remove Cyan_Base
+execute if entity @e[tag=XPR,tag=Purple_Base] run tag @e[tag=XPR,tag=Purple_Base] add Purple_Origin
+execute if entity @e[tag=XPR,tag=Purple_Base] run tag @e[tag=XPR,tag=Purple_Base] remove Purple_Base
+execute if entity @e[tag=XPR,tag=Gray_Base] run tag @e[tag=XPR,tag=Gray_Base] add Gray_Origin
+execute if entity @e[tag=XPR,tag=Gray_Base] run tag @e[tag=XPR,tag=Gray_Base] remove Gray_Base
+execute if entity @e[tag=XPR,tag=Black_Base] run tag @e[tag=XPR,tag=Black_Base] add Black_Origin
+execute if entity @e[tag=XPR,tag=Black_Base] run tag @e[tag=XPR,tag=Black_Base] remove Black_Base
 
 # Reset team scores
 scoreboard players reset Red xp_score

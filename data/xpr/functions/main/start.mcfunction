@@ -8,6 +8,14 @@ scoreboard objectives setdisplay belowName xp
 scoreboard objectives setdisplay list xp
 scoreboard objectives setdisplay sidebar xp_score
 
+# Revoke vanilla advancements
+# All advancements now grant at least 25xp
+advancement revoke @a from adventure/root
+advancement revoke @a from end/root
+advancement revoke @a from husbandry/root
+advancement revoke @a from nether/root
+advancement revoke @a from story/root
+
 # Start Game
 clear @a[tag=!admin]
 title @a times 0 40 40
@@ -38,7 +46,8 @@ execute if score ♦Admin♦ duration matches 2 run schedule function xpr:main/c
 execute if score ♦Admin♦ duration matches 3 run schedule function xpr:main/countdown/3h 5s append
 execute if score ♦Admin♦ duration matches 4 run schedule function xpr:main/countdown/4h 5s append
 
-# Schedule shield xp grab
+# Schedule banner and shield xp grab
+schedule function xpr:main/xp_grab/xp_pulse_0 5s
 schedule function xpr:main/xp_grab/shield_0 64s
 
 # Heal players and reset cycle

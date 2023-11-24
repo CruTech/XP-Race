@@ -9,6 +9,10 @@ setblock ~ ~1 ~ minecraft:gray_banner
 # If platform is in water, provide boats
 execute if block ~ ~-2 ~4 water run function xpr:setup/boat_chest
 
+# If platform is in snow, provide boots
+execute if block ~ ~-2 ~4 snow run function xpr:setup/boot_chest
+execute if block ~ ~-2 ~4 snow_block run function xpr:setup/boot_chest
+execute if block ~ ~-2 ~4 powder_snow run function xpr:setup/boot_chest
+
 # Summon Refference Point
-summon minecraft:creeper ~ ~100 ~ {powered:1,CustomName:"\"Gray_Base\"",CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1,Team:spectator}
-kill @e[name=Setup,limit=1,sort=nearest]
+summon minecraft:marker ~ ~10 ~ {Tags:["XPR","Gray_Base"]}

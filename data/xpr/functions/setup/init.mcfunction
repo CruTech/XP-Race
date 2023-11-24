@@ -1,7 +1,7 @@
 # Basic World Setup
-gamerule sendCommandFeedback false
+gamerule sendCommandFeedback true
 gamerule commandBlockOutput false
-gamerule logAdminCommands false
+gamerule logAdminCommands true
 gamerule spawnRadius 4
 gamerule doImmediateRespawn true
 time set noon
@@ -68,8 +68,3 @@ scoreboard objectives add game dummy
 scoreboard players set ♦Admin♦ game 0
 scoreboard objectives add auto dummy
 scoreboard players set ♦Admin♦ auto 0
-
-# Scoreboards for additional features
-#scoreboard objectives add q_time dummy
-#scoreboard objectives add q_dummy dummy
-#scoreboard objectives add quartz minecraft.picked_up:minecraft.quartz

@@ -41,15 +41,17 @@ setblock 9 75 9 sea_lantern
 setblock -9 75 -9 sea_lantern
 setworldspawn 0 75 0
 
+execute unless entity @e[type=marker,tag=XPR,tag=Hub] run summon minecraft:marker 0 100 0 {Tags:["XPR","Hub"]}
+
 # Create initial markers for field generation
-execute unless entity @e[name=Red_Origin] run summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Red_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
-execute unless entity @e[name=Blue_Origin] run summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Blue_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
-execute unless entity @e[name=Yellow_Origin] run summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Yellow_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
-execute unless entity @e[name=Green_Origin] run summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Green_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
-execute unless entity @e[name=Cyan_Origin] run summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Cyan_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
-execute unless entity @e[name=Purple_Origin] run summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Purple_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
-execute unless entity @e[name=Gray_Origin] run summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Gray_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
-execute unless entity @e[name=Black_Origin] run summon minecraft:creeper 0 200 0 {powered:1,CustomName:"\"Black_Origin\"",Invisible:1,CustomNameVisible:1,NoAI:1b,PersistenceRequired:1b,NoGravity:1b,CanPickUpLoot:0b,Silent:1,Invulnerable:1}
+execute unless entity @e[type=marker,tag=XPR,tag=Red_Origin] run summon minecraft:marker 0 100 0 {Tags:["XPR","Red_Origin"]}
+execute unless entity @e[type=marker,tag=XPR,tag=Blue_Origin] run summon minecraft:marker 0 100 0 {Tags:["XPR","Blue_Origin"]}
+execute unless entity @e[type=marker,tag=XPR,tag=Yellow_Origin] run summon minecraft:marker 0 100 0 {Tags:["XPR","Yellow_Origin"]}
+execute unless entity @e[type=marker,tag=XPR,tag=Green_Origin] run summon minecraft:marker 0 100 0 {Tags:["XPR","Green_Origin"]}
+execute unless entity @e[type=marker,tag=XPR,tag=Cyan_Origin] run summon minecraft:marker 0 100 0 {Tags:["XPR","Cyan_Origin"]}
+execute unless entity @e[type=marker,tag=XPR,tag=Purple_Origin] run summon minecraft:marker 0 100 0 {Tags:["XPR","Purple_Origin"]}
+execute unless entity @e[type=marker,tag=XPR,tag=Gray_Origin] run summon minecraft:marker 0 100 0 {Tags:["XPR","Gray_Origin"]}
+execute unless entity @e[type=marker,tag=XPR,tag=Black_Origin] run summon minecraft:marker 0 100 0 {Tags:["XPR","Black_Origin"]}
 
 
 tp @a 0 75 0

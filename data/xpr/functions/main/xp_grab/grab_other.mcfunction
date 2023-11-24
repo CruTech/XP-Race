@@ -1,9 +1,4 @@
 # You fool!
-# Reset displayed xp
-xp set @s 0 points
-xp set @s 0 levels
-# Establish current score as new baseline for next grab
-scoreboard players operation @s xp_previous = @s xp
-scoreboard players set @s death 0
-# Revoke triggering advancement
+# Add tag to player to be processed and revoke triggering advancement
+execute unless entity @s[tag=xp_processing] run tag @s add xp_red
 advancement revoke @s only xpr:main/xp_grab_other
