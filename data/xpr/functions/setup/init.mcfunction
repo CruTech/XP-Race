@@ -10,7 +10,6 @@ defaultgamemode survival
 tp @s 0 100 0
 
 # Establish Admin
-tag @s remove
 tag @s add admin
 gamemode creative @s
 effect clear @s
