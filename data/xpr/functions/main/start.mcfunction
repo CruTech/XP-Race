@@ -4,7 +4,7 @@ function xpr:setup/assign
 # Set Scoreboards
 xp set @a 0 points
 xp set @a 0 levels
-scoreboard objectives setdisplay belowName xp
+scoreboard objectives setdisplay below_name xp
 scoreboard objectives setdisplay list xp
 scoreboard objectives setdisplay sidebar xp_score
 
