@@ -15,4 +15,4 @@ execute if block ~ ~-2 ~4 snow_block run function xpr:setup/boot_chest
 execute if block ~ ~-2 ~4 powder_snow run function xpr:setup/boot_chest
 
 # Summon Refference Point
-summon minecraft:marker ~ ~10 ~ {Tags:["XPR","Gray_Base"]}
+summon minecraft:marker ~ ~10 ~ {Tags:["XPR","Green_Base"]}
