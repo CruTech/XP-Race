@@ -1,12 +1,13 @@
 {
 	"type": "minecraft:crafting_shapeless",
+  	"category": "building",
 	"ingredients":
 	[
 		{"item": "minecraft:gray_concrete"}
 	],
 	"result":
 	{
-		"item": "minecraft:gray_concrete_powder"
+		"id": "minecraft:gray_concrete_powder"
 	}
 }
 

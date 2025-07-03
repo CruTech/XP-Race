@@ -1,12 +1,13 @@
 {
 	"type": "minecraft:crafting_shapeless",
+  	"category": "building",
 	"ingredients":
 	[
 		{"item": "minecraft:red_concrete"}
 	],
 	"result":
 	{
-		"item": "minecraft:red_concrete_powder"
+		"id": "minecraft:red_concrete_powder"
 	}
 }
 

@@ -1,12 +1,13 @@
 {
 	"type": "minecraft:crafting_shapeless",
+  	"category": "building",
 	"ingredients":
 	[
 		{"item": "minecraft:purple_concrete"}
 	],
 	"result":
 	{
-		"item": "minecraft:purple_concrete_powder"
+		"id": "minecraft:purple_concrete_powder"
 	}
 }
 

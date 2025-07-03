@@ -1,0 +1,21 @@
+{
+	"parent": "xpr:main/root",
+	"criteria":
+	{
+		"bedrock":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{"items": "minecraft:bedrock"}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:setup/init"
+	}
+}

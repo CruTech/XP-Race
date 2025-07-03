@@ -1,0 +1,328 @@
+{
+	"type": "minecraft:loot",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_book_cover",
+							"title": "XP Race V5.1",
+							"author": "Lego_archer_elf"
+						},
+            {
+              "function": "minecraft:set_lore",
+              "lore": 
+              [
+                {"text": "This book contains all the commands"},
+                {"text": "required to run XP-Race Version 5.1"}
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages":
+              [
+                {
+                  "text": "..       ",
+                  "color": "white",
+                  "extra": 
+                  [
+                    {
+                      "text": "XP Race",
+                      "bold": true,
+                      "underlined": true,
+                      "color": "gold"
+                    },
+                    {
+                      "text": "\n\n"
+                    },
+                    {
+                      "text": "..        ",
+                      "color": "white"
+                    },
+                    {
+                      "text": "Made by\n",
+                      "color": "black"
+                    },
+                    {
+                      "text": " Lego_archer_elf",
+                      "color": "dark_green",
+                      "bold": true
+                    },
+                    {
+                      "text": "\n\n..          ",
+                      "color": "white"
+                    },
+                    {
+                      "text": "For\n        ",
+                      "color": "black"
+                    },
+                    {
+                      "text": "CrüTech",
+                      "color": "dark_blue",
+                      "underlined": true,
+                      "click_event": 
+                      {
+                        "action": "open_url",
+                        "url": "https://crucamps.com.au/cru-camps/"
+                      }
+                    },
+                    {
+                      "text": "\n\n..          ",
+                      "color": "white"
+                    },
+                    {
+                      "text": "And\n  ",
+                      "color": "black"
+                    },
+                    {
+                      "text": "Crafting For Christ",
+                      "underlined": true,
+                      "color": "dark_blue",
+                      "click_event": 
+                      {
+                        "action": "open_url",
+                        "url": "https://craftingforchrist.net"
+                      }
+                    },
+                    {
+                      "text": "\n\n\n\n       Version 5.1",
+                      "italic": true,
+                      "color": "dark_gray"
+                    }
+                  ]
+                },
+                {
+                  "text": "",
+                  "extra":
+                  [
+                    {
+                      "text": "Game Setup:\n",
+                      "bold": true,
+                      "color": "dark_blue"
+                    },
+                    {
+                      "text": " [Generate Hub]",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:setup/field_0"
+                      },
+                      "hover_event":
+                      {
+                        "action": "show_text",
+                        "value": "Creates a central hub for players to spawn in.\nRequired for game to run."
+                      }
+                    },
+                    {
+                      "text": "\nTeams:\n",
+                      "color": "dark_blue"
+                    },
+                    {
+                      "text": " [2] ",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:setup/teams_2"
+                      }
+                    },
+                    {
+                      "text": " [3] ",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:setup/teams_3"
+                      }
+                    },
+                    {
+                      "text": " [4] ",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:setup/teams_4"
+                      }
+                    },
+                    {
+                      "text": " [6] ",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:setup/teams_6"
+                      }
+                    },
+                    {
+                      "text": " [8]\n",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:setup/teams_8"
+                      }
+                    },
+                    {
+                      "text": " [Team Tokens] ",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:setup/tokens"
+                      },
+                      "hover_event":
+                      {
+                        "action": "show_text",
+                        "value": "Gives Concrete of the available team colours.\nGive these to players to assign them to that team."
+                      }
+                    },
+                    {
+                      "text": " [Auto]\n",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:setup/auto"
+                      },
+                      "hover_event":
+                      {
+                        "action": "show_text",
+                        "value": "Sets game to auto-cycle with 1 team.\n(Work in progress)"
+                      }
+                    },
+                    {
+                      "text": "Runtime:\n",
+                      "color": "dark_blue"
+                    },
+                    {
+                      "text": "  [30m] ",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "scoreboard players set ♦Admin♦ duration 30"
+                      }
+                    },
+                    {
+                      "text": " [45m] ",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "scoreboard players set ♦Admin♦ duration 45"
+                      }
+                    },
+                    {
+                      "text": " [60m] ",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "scoreboard players set ♦Admin♦ duration 60"
+                      }
+                    },
+                    {
+                      "text": " [90m] ",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "scoreboard players set ♦Admin♦ duration 90"
+                      }
+                    },
+                    {
+                      "text": " [2h] ",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "scoreboard players set ♦Admin♦ duration 2"
+                      }
+                    },
+                    {
+                      "text": " [3h] ",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "scoreboard players set ♦Admin♦ duration 3"
+                      }
+                    },
+                    {
+                      "text": " [4h]",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "scoreboard players set ♦Admin♦ duration 4"
+                      }
+                    },
+                    {
+                      "text": "\n\n [Generate Gamefield]",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:setup/field_1"
+                      },
+                      "hover_event":
+                      {
+                        "action": "show_text",
+                        "value": "Generate team spawn platforms.\nOnly need to run for first round."
+                      }
+                    },
+                    {
+                      "text": "\n\n\n  "
+                    },
+                    {
+                      "text": "Start",
+                      "color": "dark_green",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:main/start"
+                      },
+                      "hover_event":
+                      {
+                        "action": "show_text",
+                        "value": "Start Game.\nUnassigned players will be randomly assigned."
+                      }
+                    },
+                    {
+                      "text": " ☼ "
+                    },
+                    {
+                      "text": "End",
+                      "color": "red",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:main/end"
+                      },
+                      "hover_event":
+                      {
+                        "action": "show_text",
+                        "value": "End Game.\nPlayers will be put in spectator and winning team announced."
+                      }
+                    },
+                    {
+                      "text": " ☼ "
+                    },
+                    {
+                      "text": "Reset",
+                      "color": "light_purple",
+                      "click_event":
+                      {
+                        "action": "run_command",
+                        "command": "function xpr:main/reset"
+                      },
+                      "hover_event":
+                      {
+                        "action": "show_text",
+                        "value": "Reset game.\nA new set of platforms will be created.\nYou can change number of teams and duration if you wish."
+                      }
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            }
+					]
+				}
+			]
+		}
+	]
+}
